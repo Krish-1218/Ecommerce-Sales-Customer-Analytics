@@ -62,6 +62,8 @@ Ecommerce-Sales-Customer-Analytics/
 │
 ├── dataset.csv
 ├── Ecommerce_Sales.pbix
+├── Ecommerce_Sales_Customer_Analytics_Dashboard.pptx
+├── Ecommerce_Sales_Customer_Analytics_Report.pdf
 ├── dashboard.png
 └── README.md
 ```
