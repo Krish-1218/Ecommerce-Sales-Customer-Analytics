@@ -1,97 +1,146 @@
-# E-Commerce Sales & Customer Analytics Dashboard
+# 📊 E-Commerce Sales & Customer Analytics
 
-## Overview
+## 🚀 Project Overview
 
-This project presents an interactive Power BI dashboard built to analyze e-commerce sales performance, profitability, and customer trends.
-It helps identify key business insights such as top-performing categories, regional sales distribution, and overall profit margins.
+This project presents an end-to-end data analytics solution to analyze e-commerce sales performance, customer behavior, and profitability.
+The analysis was conducted using SQL, Python, and Power BI to transform raw transactional data into meaningful business insights.
 
----
-
-## Objectives
-
-- Analyze total sales, profit, and order volume
-- Identify top-performing categories and sub-categories
-- Track sales trends over time
-- Compare regional performance
-- Calculate key KPIs like Average Order Value and Profit Margin
+The project identifies key revenue drivers, loss-making products, and the impact of discount strategies on profitability.
 
 ---
 
-## Key Metrics (KPIs)
+## 🎯 Objectives
 
-- Total Sales: 2M
-- Total Profit: 286K
-- Total Orders: 9994
-- Average Order Value: $229.9
-- Profit Margin: 12.5%
-
----
-
-## Dashboard Features
-
-- Sales trend analysis (Year and Month)
-- Sales distribution by Region
-- Category-wise performance
-- Top 5 Sub-Categories by Sales
-- Profit analysis by Category
-- Top 5 Sub-Categories by Profit
+- Analyze overall sales, profit, and order volume
+- Identify top-performing customers and products
+- Detect loss-making products
+- Evaluate the impact of discounts on profitability
+- Perform regional and category-level analysis
 
 ---
 
-## Tools and Technologies
+## 📊 Key Metrics (KPIs)
 
-- Power BI – Data visualization and dashboard creation
-- Excel / CSV – Data source
-- DAX – Measures and calculations
-
----
-
-## Data Cleaning Steps
-
-- Removed errors and null values
-- Converted date columns using locale settings
-- Fixed incorrect data types (Text to Numeric/Date)
-- Created calculated measures (Total Sales, Profit Margin, etc.)
+- Total Sales: **2.29M**
+- Total Profit: **286K**
+- Total Orders: **9,994**
+- Average Order Value: **$229.9**
+- Profit Margin: **12.5%**
 
 ---
 
-## Project Structure
+## 🛠️ Tools & Technologies
+
+- **SQL (MySQL)** – Data extraction and querying
+- **Python (Pandas, Matplotlib)** – Data cleaning and analysis
+- **Power BI** – Interactive dashboard and visualization
+- **Excel / CSV** – Data source
+
+---
+
+## 📊 Dashboard Preview
+
+### 🔹 Executive Overview
+
+![Executive Overview](IMAGES/executive_overview.png)
+
+👉 Provides a high-level summary of sales, profit, orders, and overall performance trends.
+
+---
+
+### 🔹 Detailed Analysis
+
+![Detailed Analysis](IMAGES/detailed_analysis.png)
+
+👉 Focuses on deeper insights such as top customers, top products, loss-making products, and discount impact on profitability.
+
+---
+
+## 📈 Dashboard Features
+
+- KPI overview cards (Sales, Profit, Orders, Profit Margin)
+- Sales trend analysis over time
+- Regional and category-wise performance
+- Top customers and top products analysis
+- Identification of loss-making products
+- Discount impact on profitability
+
+---
+
+## 🧹 Data Preparation
+
+- Handled missing values and cleaned data
+- Converted date columns and standardized formats
+- Fixed incorrect data types
+- Created calculated measures (KPIs)
+- Validated results using Python and SQL
+
+---
+
+## 📊 Key Insights
+
+- The Technology category generates the highest sales and profit
+- A small group of customers contributes a significant portion of total revenue
+- Higher discount levels negatively impact profitability
+- Several products consistently generate losses
+- Sales show a steady upward trend over time
+
+---
+
+## 📁 Project Structure
 
 ```
 Ecommerce-Sales-Customer-Analytics/
 │
-├── dataset.csv
-├── Ecommerce_Sales.pbix
-├── Ecommerce_Sales_Customer_Analytics_Dashboard.pptx
-├── Ecommerce_Sales_Customer_Analytics_Report.pdf
-├── dashboard.png
+├── DASHBOARD/
+│   └── ecommerce_dashboard.pbix
+│
+├── DATA/
+│   └── dataset.csv
+│
+├── IMAGES/
+│   ├── executive_overview.png
+│   └── detailed_analysis.png
+│
+├── PYTHON/
+│   └── ecommerce_analysis.ipynb
+│
+├── SQL/
+│   └── queries.sql
+│
+├── REPORTS/
+│   └── Ecommerce_Sales_Customer_Analytics_Report.pdf
+│
 └── README.md
 ```
 
 ---
 
-## Key Insights
+## 💼 Business Value
 
-- Technology category generates the highest sales
-- West region leads in overall revenue
-- Profit margin is around 12.5 percent indicating moderate profitability
-- Certain sub-categories like Copiers and Phones drive high profit
+This project enables businesses to:
 
----
-
-## Conclusion
-
-This dashboard provides a clear view of business performance and supports data-driven decision making by identifying trends, opportunities, and areas for improvement.
+- Identify high-value customers and top-performing products
+- Reduce losses by addressing underperforming products
+- Optimize discount strategies
+- Improve decision-making using data-driven insights
 
 ---
 
-## Author
+## 🧾 Conclusion
 
-Krishna Bhise
+This project demonstrates how combining SQL, Python, and Power BI can deliver a complete analytical solution.
+It provides actionable insights that help improve profitability and support strategic business decisions.
+
+---
+
+## 👤 Author
+
+**Krishna Bhise**
 Aspiring Data Analyst
 
 ---
 
-## If you like this project
+## ⭐ Support
 
-Consider giving it a star on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub!
